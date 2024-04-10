@@ -1,58 +1,48 @@
-# PyQuake-cli
-A python application that uses the USGS hourly feed and displays it in terminal
+## PyQuake-cli: Stay Updated on Earthquakes in the Terminal
 
+**Welcome to PyQuake-cli!** This Python application brings the latest earthquake information straight to your terminal.
 
-Installation
+**How it works:**
 
+- PyQuake fetches data from the USGS hourly earthquake feed.
+- It parses the JSON data and displays detailed information about each earthquake, including:
+    - URL
+    - Magnitude
+    - Location
 
-To install PyQuake do the following.
+**Features:**
 
-` (sudo) pip install requests json sys `
+- Live feed of recent earthquakes
+- Detailed earthquake information
+- Summary of recent earthquakes, showing magnitude and location
+- Simple and user-friendly terminal interface
 
-then
+**Getting started:**
 
-` git clone https://www.github.com/WalkTheEarth/PyQuake.git `
+1. Install PyQuake: `pip install requests json sys && git clone https://github.com/WalkTheEarth/PyQuake.git`
+2. Run the application: `python3 PyQuake.py`
+3. For a summary of recent earthquakes: `python3 PyQuake.py /s`
 
-next, if everything worked, do
+**Future plans:**
 
-`python3 (just python on windows) PyQuake.py`
+- Filter earthquakes by location/magnitude
+- Add interactive map visualization
+- Allow saving earthquakes to a file/database
 
-if everything worked, it should be something like 
+**Looking for more?** Check out the following options:
 
-` URL: https://earthquake.usgs.gov/earthquakes/eventpage/ak0244naie2j
-Magnitude: 0.9
-Location: 67 km WNW of Tyonek, Alaska`
+- **Live feed:** View the complete feed of recent earthquakes.
+- **Specific earthquakes:** Use the URL provided in the detailed information for each earthquake.
+- **Summary:** Get a concise overview of the most recent earthquakes.
 
-`URL: https://earthquake.usgs.gov/earthquakes/eventpage/ak0244nafbjp
-Magnitude: 5
-Location: 66 km W of Patacamaya, Bolivia`
+**Get alerted about earthquakes in real-time with PyQuake-cli!**
 
-`URL: https://earthquake.usgs.gov/earthquakes/eventpage/us7000mb79
-Magnitude: 1.9
-Location: 27 km NW of Nikiski, Alaska`
+## More Information
 
-`URL: https://earthquake.usgs.gov/earthquakes/eventpage/ak0244naavwy
-Magnitude: 3.26
-Location: 75 km NNE of Luquillo, Puerto Rico`
+- **Data source:** USGS Earthquake Feed
+- **Dependencies:** requests, json, sys
+- **License:** AGPL-3.0
 
-`URL: https://earthquake.usgs.gov/earthquakes/eventpage/pr71445328
-Magnitude: 5.4
-Location: 40 km NW of Kuqa, China `
+**Join the discussion and contribute ideas for future features!**
 
-if your looking for something more simpler, run the same command from earlier, but add "/s" at the end so it becomes
-
-`python3 (just python on windows) PyQuake.py /s`
-
-and it should return 
-
-`Earthquakes Summary:`
-
-`M 1.0 - 9 km E of Pala, CA`
-
-`M 1.3 - 7 km S of Houston, Alaska`
-
-`M 0.9 - 67 km WNW of Tyonek, Alaska`
-
-`M 5.0 - 66 km W of Patacamaya, Bolivia`
-
-`M 1.9 - 27 km NW of Nikiski, Alaska`
+## Thank you for using PyQuake-cli!
