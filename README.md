@@ -21,19 +21,15 @@
 
 1. Install PyQuake: `pip install requests json sys && git clone https://github.com/WalkTheEarth/PyQuake.git`
 2. Run the application: `python3 PyQuake.py`
+   ![regular mode on PyQuake](https://raw.githubusercontent.com/WalkTheEarth/PyQuake-cli/main/img/NoSimple.png)
 3. For a summary of recent earthquakes: `python3 PyQuake.py /s`
+   ![Simple Mode on PyQuake](https://raw.githubusercontent.com/WalkTheEarth/PyQuake-cli/main/img/Simple.png)
 
 **Future plans:**
 
 - Filter earthquakes by location/magnitude
 - Add interactive map visualization
 - Allow saving earthquakes to a file/database
-
-**Looking for more?** Check out the following options:
-
-- **Live feed:** View the complete feed of recent earthquakes.
-- **Specific earthquakes:** Use the URL provided in the detailed information for each earthquake.
-- **Summary:** Get a concise overview of the most recent earthquakes.
 
 **Get alerted about earthquakes in real-time with PyQuake-cli!**
 
