@@ -21,9 +21,13 @@
 
 1. Install PyQuake: `pip install requests json sys && git clone https://github.com/WalkTheEarth/PyQuake.git`
 2. Run the application: `python3 PyQuake.py`
+   
    ![regular mode on PyQuake](https://raw.githubusercontent.com/WalkTheEarth/PyQuake-cli/main/img/NoSimple.png)
-3. For a summary of recent earthquakes: `python3 PyQuake.py /s`
+   
+4. For a summary of recent earthquakes: `python3 PyQuake.py /s`
+   
    ![Simple Mode on PyQuake](https://raw.githubusercontent.com/WalkTheEarth/PyQuake-cli/main/img/Simple.png)
+   
 
 **Future plans:**
 
