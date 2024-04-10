@@ -29,7 +29,7 @@ else:
         properties = feature['properties']
         if not simple:
             print(f"Magnitude: {properties['mag']}")
-            print(f"Location: {properties['place']}\n")
-            print(f"URL: {properties['url']}")
+            print(f"Location: {properties['place']}")
+            print(f"URL: {properties['url']}\n")
         else:
             print(f"{properties['title']}\n")
